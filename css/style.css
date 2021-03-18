@@ -1,0 +1,82 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100hv;
+    height: 100vh;
+}
+
+.color{
+    background-image: url("https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2018/08/fondos-pantalla-full-hd-animales_4.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.columna{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    position: relative;
+}
+
+.row{
+    width: 60%;
+    height: 60vh;
+    position: absolute;
+    margin-top: 215px;
+}
+
+.div{
+    width: 100%;
+    padding: 30px;
+}
+
+.div h2{
+    margin-top: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.0rem;
+    font-weight: 500;
+    color: rgb(238, 70, 126)
+}
+
+.div p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3.3rem;
+    color: skyblue;
+}
+
+.div button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 20px;
+    padding: 10px 50px;
+    border: none;
+    font-weight: 700;
+    background-image: linear-gradient(to right, #e80033, #f9a852, #f69653, #f38654, #f07654, #ed6856, #ef5956, #ee4c58, #56c1ab)
+}
+
+.div button:hover{
+    color: #8181e0;
+    background-color:whitesmoke;
+    cursor: pointer;
+    transform: translate(350px,0);
+    -webkit-transform: translate(350px,0);
+    transition: ease-in-out 4s;
+}
+.div p:hover{
+    transform: translate(350px,-350px);
+    transition: ease-in-out 2s;
+}  
+
+.div h2:hover{
+    transform: translate(350px, -350px) rotate(360deg);
+    transition: ease-in-out 4s;
+}
